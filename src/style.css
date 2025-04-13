@@ -1,0 +1,16 @@
+@import url(https://db.onlinewebfonts.com/c/9551514c6daf77d2f3ec8c9edaa0997c?family=StandardCTStencil-Bold);
+
+body {
+    background-color: #1F2229;
+    color: white;
+}
+
+.text_welcome{
+    font-family: "StandardCTStencil-Bold";
+    font-size: 68px;
+    text-transform:uppercase
+}
+
+.span_welcome_text{
+
+}
