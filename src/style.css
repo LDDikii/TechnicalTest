@@ -1,5 +1,11 @@
 @import url(https://db.onlinewebfonts.com/c/9551514c6daf77d2f3ec8c9edaa0997c?family=StandardCTStencil-Bold);
 
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 90em;
+}
+
 body {
     background-color: #1F2229;
     color: white;
@@ -11,6 +17,44 @@ body {
     text-transform:uppercase
 }
 
-.span_welcome_text{
+.header {
+    width: 90em;
+    height: 4.75em;
+    max-width: 90em;
+}
 
+.header__logo {
+    width: 5.5em;
+    height: 2.0625em;
+    /* margin: 1.3125em 0 0 2em; */
+    top: 1.3125em;
+    left: 2em;
+    position: absolute;
+}
+
+.header__divider__solid {
+    border-top: 1px solid #383D4A;
+    border-bottom: #1F2229;
+    border-left: #1F2229;
+    border-right: #1F2229;
+}
+
+.header__location {
+    width: 11.875em;
+    height: 2em;
+    /* margin: 1.25em 0 0 78.75em; */
+    position: absolute;
+    top: 1.25em;
+    left: 78.75em;
+}
+
+.location__img {
+    /* width: 32px; */
+    /* height: 32px; */
+    position: absolute;
+}
+
+.location__text{
+    /* text-align: center; */
+    position: absolute;
 }
