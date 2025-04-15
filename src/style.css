@@ -146,6 +146,7 @@ body {
     font-family: "Tele2 DisplaySerif Web SHORT Bold";
     font-size: 40px;
     line-height: 130%;
+    left: 4px;
 }
 
 .section_explanation__text_condition{
@@ -155,4 +156,44 @@ body {
     top: 4.75rem;
     width: 41.5625rem;
     height: 3.75rem;
+    left: 4px;
+}
+
+.section_explanation__figure_video{
+    position: absolute;
+    top: 12rem;
+    height: 4.5em;
+    width: 18.6em;
+}
+
+.figure__img{
+    height: 4.5em;
+    width: 4.5em;
+}
+
+.figure__caption{
+    font-size: 20px;
+    line-height: 150%;
+    top: 30%;
+    left: 30%;
+}
+
+.section_explanation__figure_music{
+    position: absolute;
+    top: 12rem;
+    height: 4.5em;
+    width: 20em;
+    left: 21.9375em;
+}
+
+.figure__music_caption{
+    left: 27%
+}
+
+.section_explanation__figure_photo{
+    position: absolute;
+    top: 12rem;
+    height: 4.5em;
+    width: 20em;
+    left: 44.2em;
 }
