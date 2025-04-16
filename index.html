@@ -63,17 +63,21 @@
                 <input id="checkbox" class="article_promocode__checkbox" type="checkbox">
                 <label for="checkbox" class="checkbox_form__text">Даю согласие на обработку персональных данных. <span style="text-decoration: underline;">Условия соглашения.</span></label>
                 <button type="button" class="button checkbox_form__button">Выслать промокод</button>
-                <div id="result__success" class="result article_promocode__result hidden">
+                <div class="result article_promocode__result result__success hidden">
                     <img class="result__img" src="public/pictures/icons/success.png">
                     <p class="result__text">Промокод выслан на ваш номер</p>
                 </div>
-                <div id="result__err__checkbox" class="result article_promocode__result hidden">
+                <div class="result article_promocode__result result__err__checkbox hidden">
                     <img class="result__img" src="public/pictures/icons/warning.png">
                     <p class="result__text">Необходимо принять условия соглашения</p>
                 </div>
-                <div id="result__err__num" class="result article_promocode__result__big hidden">
+                <div class="result article_promocode__result__big result__err__num hidden">
                     <img class="result__img" src="public/pictures/icons/warning.png">
                     <p class="result__text result__text">На этот номер уже выслан промокод, на один номер можно получить один промокод</p>
+                </div>
+                <div class="result article_promocode__result__big result__err__num_missing hidden">
+                    <img class="result__img" src="public/pictures/icons/warning.png">
+                    <p class="result__text result__text">Необходимо ввести номер телефона</p>
                 </div>
             </form>
         </section>
