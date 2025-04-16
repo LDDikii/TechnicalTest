@@ -52,11 +52,71 @@
         </figure>
     </section>
 
-    <article class="article article_promocode">
+    <article class="article margin-left article_promocode">
         <section class="section article_promocode__section">
             <p class="article_promocode__text__big">Несколько шагов <br><span class="span" style="color: #48cdfc;">и 1 ТБ — ваш</span></p>
+            <form class="promocode_form article_promocode__phone_form">
+                <p class="promocode_form__text">Номер телефона</p>
+                <input type="tel" class="promocode_form__input" placeholder=" ">
+            </form>
+            <form class="checkbox_form article_promocode__checkbox_form">
+                <input id="checkbox" class="article_promocode__checkbox" type="checkbox">
+                <label for="checkbox" class="checkbox_form__text">Даю согласие на обработку персональных данных. <span style="text-decoration: underline;">Условия соглашения.</span></label>
+                <button type="button" class="button checkbox_form__button">Выслать промокод</button>
+                <div id="result__success" class="result article_promocode__result hidden">
+                    <img class="result__img" src="public/pictures/icons/success.png">
+                    <p class="result__text">Промокод выслан на ваш номер</p>
+                </div>
+                <div id="result__err__checkbox" class="result article_promocode__result hidden">
+                    <img class="result__img" src="public/pictures/icons/warning.png">
+                    <p class="result__text">Необходимо принять условия соглашения</p>
+                </div>
+                <div id="result__err__num" class="result article_promocode__result__big hidden">
+                    <img class="result__img" src="public/pictures/icons/warning.png">
+                    <p class="result__text result__text">На этот номер уже выслан промокод, на один номер можно получить один промокод</p>
+                </div>
+            </form>
         </section>
+        
+        <aside class="instructions article_promocode__instructions">
+            <img id="first" class="instructions__img instructions__first_img" src="public/pictures/icons/first.png">
+            <label for="first" class="instructions__text instructions__text_first">Ведите свой номер телефона, затем дождитесь смс с промокодом для получения Тб</label>
+            <img id="second" class="instructions__img instructions__second_img" src="public/pictures/icons/second.png">
+            <label for="second" class="instructions__text instructions__text_second">Перейдите на <span style="text-decoration: underline;">сайт Tele2</span> и активируйте промокод при подключении на тариф «Мой Онлайн+»</label>
+            <img id="third" class="instructions__img instructions__third_img" src="public/pictures/icons/third.png">
+            <label for="third" class="instructions__text instructions__text_third">Используйте свой подарочный ТБ от Tele2 в течение всего года</label>
+        </aside>
     </article>
+
+    <article class="article_visit margin-left">
+        <section class="tariff article_visit__tariff">
+            <p class="tariff__text__big">Заходите на сайт Tele2</p>
+            <p class="tariff__text">Перейдите в магазин, оформите тариф «Мой онлайн+» и на страничке активации введите ваш промокод. Готово!</p>
+            <button type="button" class="button tariff__button">Оформить тариф</button>
+        </section>
+
+        <aside class="article_visit__aside">
+            <img class="article_visit__img" src="public/pictures/phone.png">
+        </aside>
+    </article>
+
+    <footer class="footer">
+        <nav class="social footer__social margin-left">
+            <img class="social__img" src="public/pictures/icons/twitter.png">
+            <img class="social__img" src="public/pictures/icons/vk.png">
+            <img class="social__img" src="public/pictures/icons/facebook.png">
+        </nav>
+        <aside class="additional_info footer__additional_info">
+            <p class="additional_info__text">Полные условия акции</p>
+            <img class="additional_info__img" src="public/pictures/icons/age_restriction.png">
+        </aside>
+
+        <hr class="footer__divider__solid margin-left">
+        <img class="footer__t2_logo" src="public/pictures/icons/logo.png">
+        <p class="footer__t2_mark">© Tele2 Россия, 2021</p>
+        <p class="footer__author">Сделано в Студии Олега Чулакова</p>
+        <img class="footer__author_img" src="public/pictures/icons/chulakov.png">
+    </footer>
     <script src="/src/script"></script>
 </body>
 </html>

@@ -33,10 +33,11 @@ body {
 }
 
 .header__divider__solid {
+    border: none;
     border-top: 1px solid #383D4A;
-    border-bottom: #1F2229;
+    /* border-bottom: #1F2229;
     border-left: #1F2229;
-    border-right: #1F2229;
+    border-right: #1F2229; */
 }
 
 .header__location {
@@ -108,6 +109,15 @@ body {
     font-weight: 700;
     line-height: 22px;
     border: 0;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 2px solid #48cdfc;
+}
+
+.button:active{
+    background-color: #48cdfc;
 }
 
 .section__button_enter{
@@ -196,4 +206,310 @@ body {
     height: 4.5em;
     width: 20em;
     left: 44.2em;
+}
+
+.article_promocode{
+    position: absolute;
+    top: 77.6875rem;
+    width: 68rem;
+    height: 29rem;
+}
+
+.article_promocode__section{
+    height: 100%;
+    width: 21.75em;
+}
+
+.article_promocode__text__big{
+    font-family: "Tele2 DisplaySerif Web SHORT Bold";
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.article_promocode__phone_form{
+    position: relative;
+    top: 4em;
+    width: 21.75em;
+    height: 3.125em;
+}
+
+.promocode_form__text{
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 13px;
+    line-height: 18px;
+    color: #8F9399;
+}
+
+.promocode_form__input{
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 16px;
+    line-height: 138%;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #8F9399;
+    width: 100%;
+}
+
+.article_promocode__checkbox_form{
+    position: relative;
+    top: 5em;
+}
+
+.article_promocode__checkbox{
+    width: 1.5em;
+    height: 1.5em;
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+    font: inherit;
+    border: 0.15em solid white;
+    transform: translateY(-0.075em);
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.article_promocode__checkbox:checked{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+}
+
+.checkbox_form__text{
+    position: absolute;
+    left: 2em;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 16px;
+    line-height: 138%;
+}
+
+.checkbox_form__button{
+    position: absolute;
+    width: 13.625em;
+    height: 3em;
+    top: 5em;
+    border-radius: 3em;
+    left: 0;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.result{
+    position: absolute;
+    top: 10.5em; 
+    width: 21.75em;
+    height: 3em;
+    background-color: #262B36;
+    border-radius: 8px;
+}
+
+.article_promocode__result__big{
+    height: 3.75em;
+}
+
+.result__img{
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    top: 0.75em;
+    left: 0.75em;
+}
+
+.result__text{
+    position: absolute;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 14px;
+    line-height: 138%;
+    font-weight: 400;
+    left: 3.42em;
+    top: 1.07em;
+}
+
+.article_promocode__instructions{
+    position: relative;
+    top: -100%;
+    left: 35em;
+    width: 36em;
+    /* float: right; */
+}
+
+.instructions__text{
+    position: absolute;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    left: 5.2em;
+}
+
+.instructions__img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+}
+
+.instructions__text_first{
+    top: 10px;
+    width: 21.6em;
+}
+
+.instructions__second_img{
+    top: 7em;
+} 
+
+.instructions__text_second{
+    top: 6em;
+    width: 24.7em;
+}
+
+.instructions__third_img{
+    top: 14em;
+}
+
+.instructions__text_third{
+    top: 11.7em;
+    width: 19.35em;
+}
+
+.article_visit{
+    position: absolute;
+    top: 104.875em;
+    width: 61.875em;
+    height: 23.3125em;
+}
+
+.article_visit__tariff{
+    position: absolute;
+    top: 3.25em;
+    width: 32.0625em;
+    height: 14.875em;
+}
+
+.tariff__text__big{
+    position: relative;
+    font-family: "Tele2 DisplaySerif Web SHORT Bold";
+    font-size: 40px;
+    line-height: 130%;
+    font-weight: 700;
+    width: 11.175em;
+}
+
+.tariff__text{
+    position: relative;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-top: 1.5em;
+    /* top: 1.5em; */
+}
+
+.tariff__button{
+    position: relative;
+    margin-top: 3em;
+    height: 3em;
+}
+
+.article_visit__aside{
+    position: relative;
+    width: 22.4375em;
+    height: 23.3125em;
+    left: 39.4375em;
+}
+
+.footer{
+    position: absolute;
+    top: 143.625em;
+    width: 100%;
+    height: 10.5em;
+    /* padding-left: 10.125rem; */
+    /* padding-right: 10.125rem; */
+}
+
+.footer__social{
+    position: absolute;
+    width: 140px;
+}
+
+.social__img{
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.footer__additional_info{
+    position: absolute;
+    top: 4px;
+    left: 59.1875em;
+    width: 14.5625em;
+}
+
+.additional_info__text{
+    position: absolute;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 10.2em;
+}
+
+.additional_info__img{
+    position: absolute;
+    left: 9em;
+    top: -6px;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__divider__solid{
+    position: relative;
+    width: 59.625em;
+    top: 3em;
+    border: none;
+    border-bottom: 1px solid #383D4A;
+}
+
+.footer__t2_logo{
+    width: 4.9375em;
+    height: 1.875em;
+    margin-left: 10.125rem;
+    margin-bottom: 2.9375em;
+    top: 5.8125em;
+    /* left: 2em; */
+    position: relative;
+}
+
+.footer__t2_mark{
+    position: relative;
+    left: 16.5625em;
+    top: 10%;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    opacity: 50%;
+    width: 9.375em;
+}
+
+.footer__author{
+    position: relative;
+    width: 16em;
+    left: 58em;
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.footer__author_img{
+    position: relative;
+    height: 1em;
+    top: -18px;
+    left: 61em;
 }
